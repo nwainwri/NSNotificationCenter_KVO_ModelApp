@@ -14,6 +14,8 @@
 		F1558D1E2120ED35003DF4E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1558D1C2120ED35003DF4E9 /* LaunchScreen.storyboard */; };
 		F1558D212120ED35003DF4E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1558D202120ED35003DF4E9 /* main.m */; };
 		F1558D2B2120ED35003DF4E9 /* NSNotificationCenter_KVO_ModelAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1558D2A2120ED35003DF4E9 /* NSNotificationCenter_KVO_ModelAppTests.m */; };
+		F1558D3D2120FE8B003DF4E9 /* StepperValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1558D3C2120FE8B003DF4E9 /* StepperValueViewController.m */; };
+		F1558D402120FE9B003DF4E9 /* StepperControllerSenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1558D3F2120FE9B003DF4E9 /* StepperControllerSenderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		F1558D262120ED35003DF4E9 /* NSNotificationCenter_KVO_ModelAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSNotificationCenter_KVO_ModelAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1558D2A2120ED35003DF4E9 /* NSNotificationCenter_KVO_ModelAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNotificationCenter_KVO_ModelAppTests.m; sourceTree = "<group>"; };
 		F1558D2C2120ED35003DF4E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1558D3B2120FE8B003DF4E9 /* StepperValueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StepperValueViewController.h; sourceTree = "<group>"; };
+		F1558D3C2120FE8B003DF4E9 /* StepperValueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepperValueViewController.m; sourceTree = "<group>"; };
+		F1558D3E2120FE9B003DF4E9 /* StepperControllerSenderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StepperControllerSenderViewController.h; sourceTree = "<group>"; };
+		F1558D3F2120FE9B003DF4E9 /* StepperControllerSenderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepperControllerSenderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				F1558D142120ED34003DF4E9 /* ViewController.h */,
 				F1558D152120ED34003DF4E9 /* ViewController.m */,
 				F1558D172120ED34003DF4E9 /* Main.storyboard */,
+				F1558D3B2120FE8B003DF4E9 /* StepperValueViewController.h */,
+				F1558D3C2120FE8B003DF4E9 /* StepperValueViewController.m */,
+				F1558D3E2120FE9B003DF4E9 /* StepperControllerSenderViewController.h */,
+				F1558D3F2120FE9B003DF4E9 /* StepperControllerSenderViewController.m */,
 				F1558D1A2120ED35003DF4E9 /* Assets.xcassets */,
 				F1558D1C2120ED35003DF4E9 /* LaunchScreen.storyboard */,
 				F1558D1F2120ED35003DF4E9 /* Info.plist */,
@@ -205,6 +215,8 @@
 			files = (
 				F1558D162120ED34003DF4E9 /* ViewController.m in Sources */,
 				F1558D212120ED35003DF4E9 /* main.m in Sources */,
+				F1558D402120FE9B003DF4E9 /* StepperControllerSenderViewController.m in Sources */,
+				F1558D3D2120FE8B003DF4E9 /* StepperValueViewController.m in Sources */,
 				F1558D132120ED34003DF4E9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

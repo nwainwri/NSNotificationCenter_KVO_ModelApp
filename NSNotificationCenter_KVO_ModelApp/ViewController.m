@@ -10,6 +10,12 @@
 
 @interface ViewController ()
 
+- (IBAction)stepperValueNotification:(id)sender;
+
+- (IBAction)stepperValueSender:(id)sender;
+
+
+
 @end
 
 @implementation ViewController
@@ -21,6 +27,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -31,4 +41,9 @@
 }
 
 
+- (IBAction)stepperValueNotification:(id)sender {
+}
+
+- (IBAction)stepperValueSender:(id)sender {
+}
 @end
