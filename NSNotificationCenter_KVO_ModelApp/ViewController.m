@@ -14,6 +14,11 @@
 
 @implementation ViewController
 
+
+//      READING FOR THIS ASSIGNMENT;
+//      https://www.objc.io/issues/7-foundation/communication-patterns/
+//      https://www.objc.io/issues/7-foundation/key-value-coding-and-observing/
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
